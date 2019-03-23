@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	</head>
+	
+		
+ 
+    <body onload=(draw())>
+        <h1 class="agenda">Agenda</h1>
+    <div class="continut">
+      
+		<div id="formAdaugare">
+                <label for="nume">Nume:</label>
+                <input class="inputs" name="nume" type="text" placeholder="Nume" />
+                <label for="telefon">Telefon:</label>
+            	<input class="inputs" name="telefon" type="text" placeholder="Telefon" /><br/><br/>
+				<button class="submit" onclick="adaugaPersoana()" id="addBtn">Adauga contact</button>
+				<button class="submit" onclick="saveEdit()" id="saveBtn">Save</button>
+        </div>
+	</div>
+	<div class="continut2">
+		<table id="tabelPersoane" class="date">
+		
+		</table>
+		</div>
+    </div>
+	</body>
+</html>
